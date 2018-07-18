@@ -1,5 +1,7 @@
 ## About
-This is Christian's German CV. You are free to use it as a template for your own CV.
+This is Christian's German CV. You are free to use it as a template for your
+own CV. A rendered pdf file is included in this repository. Alternatively,
+you can build the pdf from sources (see below).
 
 ## Requirements
 A LaTeX distribution including the "moderncv" package.
