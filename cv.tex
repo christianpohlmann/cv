@@ -1,0 +1,94 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+\usepackage{footmisc}
+
+
+\moderncvstyle{casual}
+\moderncvcolor{blue}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage[top=2cm,bottom=2.5cm,left=2.5cm,right=2cm]{geometry}
+\setlength{\hintscolumnwidth}{3.5cm}
+
+\firstname{Christian}
+\familyname{Pohlmann}
+\title{Lebenslauf}
+\address{Hübbesweg 29}{20537 Hamburg}
+\mobile{0163~1435969}
+\email{christian.pohlmann@posteo.de}
+\photo[90pt][0.4pt]{foto.jpg}
+
+\begin{document}
+
+\newcommand{\shiftbullet}[1] {
+        \parbox[t]{0.5em}{\vspace{#1px}$\bullet$}}
+
+\makecvtitle
+
+\section{Persönliche Daten}
+\cvitem{Geburtsdatum}{6.~Januar 1986}
+\cvitem{Geburtsort}{Preetz}
+\cvitem{Familienstand}{ledig}
+\cvitem{Staatsangehörigkeit}{deutsch}
+
+\section{Beruflicher Werdegang}
+\cventry{seit 03/2017}{\mbox{Softwareentwickler}}{Bonprix Handelsgesellschaft mbH}{Hamburg}{}
+        {$\bullet$\hspace{0.5em}\parbox[t]{\linewidth-7pt}{Umsetzung von Features für den Webshop vom Frontend bis in die Datenbank}\vspace{2pt}
+         $\bullet$\hspace{0.5em}\parbox[t]{\linewidth-7pt}{Implementierung von Anforderungen für den SEO-Bereich}\vspace{2pt}
+         $\bullet$\hspace{0.5em}\parbox[t]{\linewidth-7pt}{Continuous Integration: Erstellung und Wartung von Pipeline-Jobs mit Jenkins}\vspace{2pt}
+         $\bullet$\hspace{0.5em}\parbox[t]{\linewidth-7pt}{Arbeit in agilen Teams (Kanban und Scrum)}}
+\cventry{09/2012-02/2017}{\mbox{Software-Engineer}}{Capgemini Deutschland GmbH}{Hamburg}{}
+        {$\bullet$\hspace{0.5em}\parbox[t]{\linewidth-7pt}{Aufbau einer Last- und Performance-Testinfrastruktur für ein Trans\-port\-manage\-ment\-sys\-tem eines globalen Logistikunternehmens}\vspace{2pt}
+         $\bullet$\hspace{0.5em}\parbox[t]{\linewidth-7pt}{Erstellung und Ausführung von Performancetests sowie Durchführung von  Performanceanalysen}\vspace{2pt}
+         $\bullet$\hspace{0.5em}\parbox[t]{\linewidth-7pt}{Implementierung von Features für ein Mautsystem in C++ und Java}\vspace{2pt}}
+
+\section{Bildungsweg}
+\cventry{12/2009 -- 06/2012}{Master of Science}{Universität zu Lübeck}{Studiengang: Informatik}
+        {}
+        {Masterarbeit: DSL-based Runtime Verification for the JVM}
+\cventry{10/2006 -- 12/2009}{Bachelor of Science}{Universität zu Lübeck}
+        {Studiengang: Informatik}{}
+        {Bachelorarbeit: Vertex Cover: Performance Improvement through Evolutionary Algorithms and Kernelization}
+\cventry{08/1996 -- 06/2005}{Abitur}{Friedrich-Schiller-Gymnasium}{Preetz}{}{}
+
+\section{Zivildienst}
+\cventry{09/2005 -- 05/2006}{Zivildienst}{AWO Pflegedienste gGmbH}{Kiel}{}{}
+\newpage
+\section{Praktische Tätigkeiten}
+\cventry{10/2010 -- 07/2012}{\mbox{Studentische Hilfskraft}}{Institut für Softwaretechnik und Programmiersprachen}
+        {Universität zu Lübeck}{}{Tutor für die Veranstaltungen \emph{Softwarekonstruktion},
+         \emph{Runtime Verification} und \emph{Spezifikation und Modellierung}}
+\cventry{07/2011 -- 08/2011}{\mbox{Studentische Hilfskraft}}{Institut für Softwaretechnik und Programmiersprachen}
+        {Universität zu Lübeck}{}
+        {Konzeption, Durchführung und Betreuung eines Projekts für Schülerinnen
+          im Rahmen des Informatik-Summercamps}
+\cventry{08/2008 -- 10/2008}{Praktikant}{rosemann software GmbH}{Kiel}{}
+        {Konzeption und Entwicklung eines mobilen Clients zur Video\-über\-wach\-ung}
+\cventry{01/2008 -- 06/2008}{\mbox{Studentische Hilfskraft}}{Institut für Telematik}{Universität zu Lübeck}{}
+        {Programmierung und Testen von drahtlosen Sensorknoten}
+
+
+\section{Technologische Schwerpunkte}
+\cvitem{J2SE}{Spring, Spring Boot, Spring Data, JPA, JAX-WS (Soap)}
+\cvitem{Webentwicklung}{HTML5, Javascript (mit jQuery), CSS (inkl.~scss/sass)}
+\cvitem{Softwaretests}{JUnit, Mockito/Hamcrest, Apache JMeter, HP ALM}
+\cvitem{IDEs}{Intellij, Eclipse, PyCharm}
+\cvitem{Tools}{Git, Maven, Ant (mit Ivy), Subversion, Jenkins (insb. Job-DSL-Plugin), SoapUI}
+\cvitem{Scripting}{Python, Bash}
+\cvitem{Docker}{Grundkenntnisse in Docker, Docker Compose, Docker Swarm}
+\cvitem{Datenbanken}{Oracle (inkl.~Grundkenntnisse in PL/SQL), SQLite, H2}
+\cvitem{Textsatz}{\LaTeX}
+\cvitem{Sonstiges}{Sicher auf der Kommandozeile unterwegs, C++11 mit libboost, Grundkenntnisse in Haskell und Clojure}
+
+\section{Github-Account}
+\cventry{2016}{yale}{yet another lisp evaluator}{}{}
+        {$\bullet$\hspace{0.5em}\parbox[t]{\linewidth-7pt}{yale ist ein in Java geschriebener Lisp-Interpreter.}
+         $\bullet$\hspace{0.5em}\parbox[t]{\linewidth-7pt}{Code und weitere Informationen auf Github: \url{https://github.com/christianpohlmann/yale}}}
+                  
+\section{Sprachkenntnisse}
+\cvitemwithcomment{Deutsch}{Muttersprache}{}
+\cvitemwithcomment{Englisch}{sehr gut}{Certificate in Advanced English der University of Cambridge}
+\cvitemwithcomment{Latein}{Grundkenntnisse}{Latinum}
+
+\end{document}
