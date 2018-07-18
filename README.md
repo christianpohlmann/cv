@@ -1,14 +1,21 @@
 ## About
-This is Christian's German CV. You are free to use it as a template for your
-own CV. A rendered pdf file is included in this repository. Alternatively,
+Due to the European Union's GDPR (DSGVO in German) it has become difficult for
+recruiters to forward CVs of applicants to prospective employers. Ironically,
+this made me decide to publish my CV in its entirety.
+
+A rendered pdf file is included in this repository. Alternatively,
 you can build the pdf from sources (see below).
 
-## Requirements
-A LaTeX distribution including the "moderncv" package.
+Feel free to use the LaTeX sources as template for your own CV.
 
 ## Build
 In order to build the CV from TeX sources, simply run:
 ```
 pdflatex cv.tex
 ```
+
+### Requirements
+A LaTeX distribution including the "moderncv" package.
+
+
 
